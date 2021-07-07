@@ -17,10 +17,10 @@
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
 
 #echo '修改机器名称'
-#sed -i 's/OpenWrt/K2P/g' package/base-files/files/bin/config_generate
+#sed -i 's/OpenWrt/WR1200JS/g' package/base-files/files/bin/config_generate
 
 #echo '修改网关地址'
 #sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generate
 
 #echo '修改wifi名称'
-#sed -i 's/OpenWrt/PHICOMM_13/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+#sed -i 's/OpenWrt/WR1200JS/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
