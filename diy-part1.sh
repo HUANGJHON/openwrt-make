@@ -24,3 +24,5 @@
 
 #echo '修改wifi名称'
 #sed -i 's/OpenWrt/WR1200JS/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+
+git clone https://github.com/small-5/luci-app-adblock-plus.git package/lean//luci-app-adblock-plus
